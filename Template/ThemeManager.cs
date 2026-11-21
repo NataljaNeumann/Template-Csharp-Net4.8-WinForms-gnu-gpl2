@@ -247,7 +247,7 @@ namespace Template
             if (!oControl.Enabled && (oControl is CheckBox || oControl is Button))
                 oControl.ForeColor = oDisabledForeground;
 
-            if (oControl is ThemedCheckBox oThemedCheckBox)
+            if (oControl is Template.Controls.ThemedCheckBox oThemedCheckBox)
                 oThemedCheckBox.DarkMode = bDark;
 
             Button btnButton = oControl as Button;
@@ -268,8 +268,10 @@ namespace Template
                 {
                     btnButton.FlatStyle = FlatStyle.Flat;
                     btnButton.UseVisualStyleBackColor = false;
-                    if (btnButton is ThemedButton btnThemedButton)
+
+                    if (btnButton is Template.Controls.ThemedButton btnThemedButton)
                         btnThemedButton.DarkMode = true;
+
                     btnButton.ForeColor = btnButton.Enabled
                         ? oForeground
                         : oDisabledForeground;

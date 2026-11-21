@@ -72,9 +72,11 @@ namespace Template.Controls
             int nBoxSize = 13;
             int nBoxTop = (ClientSize.Height - nBoxSize) / 2;
             bool bRightToLeft = RightToLeft == RightToLeft.Yes;
+
             int nBoxLeft = bRightToLeft
                 ? ClientSize.Width - nBoxSize - 5
                 : 0;
+
             Rectangle oBox = new Rectangle(
                 nBoxLeft,
                 nBoxTop,

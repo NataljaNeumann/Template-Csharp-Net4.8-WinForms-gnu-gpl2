@@ -111,29 +111,58 @@ namespace Template.Controls
                                       TextFormatFlags.SingleLine |
                                       TextFormatFlags.NoPrefix;
 
-            eFlags |= eAlignment switch
+            switch (eAlignment)
             {
-                ContentAlignment.TopLeft => TextFormatFlags.Left |
-                                            TextFormatFlags.Top,
-                ContentAlignment.TopCenter => TextFormatFlags.HorizontalCenter |
-                                              TextFormatFlags.Top,
-                ContentAlignment.TopRight => TextFormatFlags.Right |
-                                             TextFormatFlags.Top,
-                ContentAlignment.MiddleLeft => TextFormatFlags.Left |
-                                               TextFormatFlags.VerticalCenter,
-                ContentAlignment.MiddleCenter => TextFormatFlags.HorizontalCenter |
-                                                  TextFormatFlags.VerticalCenter,
-                ContentAlignment.MiddleRight => TextFormatFlags.Right |
-                                                TextFormatFlags.VerticalCenter,
-                ContentAlignment.BottomLeft => TextFormatFlags.Left |
-                                               TextFormatFlags.Bottom,
-                ContentAlignment.BottomCenter => TextFormatFlags.HorizontalCenter |
-                                                  TextFormatFlags.Bottom,
-                ContentAlignment.BottomRight => TextFormatFlags.Right |
-                                                TextFormatFlags.Bottom,
-                _ => TextFormatFlags.HorizontalCenter |
-                     TextFormatFlags.VerticalCenter
-            };
+                case ContentAlignment.TopLeft:
+                    eFlags |= TextFormatFlags.Left |
+                              TextFormatFlags.Top;
+                    break;
+
+                case ContentAlignment.TopCenter:
+                    eFlags |= TextFormatFlags.HorizontalCenter |
+                              TextFormatFlags.Top;
+                    break;
+
+                case ContentAlignment.TopRight:
+                    eFlags |= TextFormatFlags.Right |
+                              TextFormatFlags.Top;
+                    break;
+
+                case ContentAlignment.MiddleLeft:
+                    eFlags |= TextFormatFlags.Left |
+                              TextFormatFlags.VerticalCenter;
+                    break;
+
+                case ContentAlignment.MiddleCenter:
+                    eFlags |= TextFormatFlags.HorizontalCenter |
+                              TextFormatFlags.VerticalCenter;
+                    break;
+
+                case ContentAlignment.MiddleRight:
+                    eFlags |= TextFormatFlags.Right |
+                              TextFormatFlags.VerticalCenter;
+                    break;
+
+                case ContentAlignment.BottomLeft:
+                    eFlags |= TextFormatFlags.Left |
+                              TextFormatFlags.Bottom;
+                    break;
+
+                case ContentAlignment.BottomCenter:
+                    eFlags |= TextFormatFlags.HorizontalCenter |
+                              TextFormatFlags.Bottom;
+                    break;
+
+                case ContentAlignment.BottomRight:
+                    eFlags |= TextFormatFlags.Right |
+                              TextFormatFlags.Bottom;
+                    break;
+
+                default:
+                    eFlags |= TextFormatFlags.HorizontalCenter |
+                              TextFormatFlags.VerticalCenter;
+                    break;
+            }
 
             return eFlags;
         }
