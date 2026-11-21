@@ -1302,7 +1302,3 @@
     <Exec Command="rmdir /S /Q &quot;$(TargetDir)&quot;" ContinueOnError="true" />
   </Target>
 </Project>
-
-
-
-
