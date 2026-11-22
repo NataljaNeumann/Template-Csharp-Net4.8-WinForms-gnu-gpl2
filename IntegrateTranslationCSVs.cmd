@@ -1,3 +1,4 @@
+ResxVsCsv --directory Template\Forms --toresx About.csv
 ResxVsCsv --directory Template\Forms --toresx CultureSelectionForm.csv
 ResxVsCsv --directory Template\Forms --toresx NewMessageBox.csv
 ResxVsCsv --directory Template\Forms --toresx MainForm.csv

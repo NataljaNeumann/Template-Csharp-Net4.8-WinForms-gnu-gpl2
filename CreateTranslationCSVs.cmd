@@ -1,8 +1,3 @@
-ResxVsCsv --directory Template\Forms --pattern CultureSelectionForm*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT,zh-Hans,zh-Hant
-ResxVsCsv --directory Template\Forms --pattern NewMessageBox*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT,zh-Hans,zh-Hant
-ResxVsCsv --directory Template\Forms --pattern MainForm*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT,zh-Hans,zh-Hant
-ResxVsCsv --directory Template\Properties --pattern Resources*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT,zh-Hans,zh-Hant
-
 rem
 rem List of Cultures
 rem
@@ -100,5 +95,13 @@ rem zh-CHS		Chinese (Simplified, PRC)
 rem zh-CHT		Chinese (Traditional, Taiwan)
 rem zh-Hans		Chinese (Simplified, PRC)
 rem zh-Hant		Chinese (Traditional, Taiwan)
+
+
+ResxVsCsv --directory Template\Forms --pattern About*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT
+ResxVsCsv --directory Template\Forms --pattern CultureSelectionForm*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT
+ResxVsCsv --directory Template\Forms --pattern NewMessageBox*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT
+ResxVsCsv --directory Template\Forms --pattern MainForm*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT
+ResxVsCsv --directory Template\Properties --pattern Resources*resx --addcultures af,am,ar,as,az,be,bg,bn,bo-CN,bs,ca,cs,da,de,dz,el,eo,es,et,fa,fi,fil,fr,ga-IE,he,hi,hr,hu,hy,id,ig,is,it,ja,ka,kk,km-KH,kn,ko,ku-Arab-IQ,ky,la,lo,lt,lv,mi,mk,ml,mn-MN,mr,ms,my,ne,nl,no,or,pa-Arab-PK,pa-IN,pl,fa-AF,ps,pt,quz,ro,ru,rw,sa,sd-Arab,sk,sl,so,sq,sr,sv,sw,ta,tg,th,ti,tk,tr,uk,ur-PK,uz,vi,wo,yo,zh-CHS,zh-CHT
+
 
 pause
