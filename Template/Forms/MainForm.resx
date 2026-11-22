@@ -118,152 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_lblShowLicense.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 108</value>
-  </data>
-  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 16</value>
-  </data>
-  <data name="m_lblShowLicense.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="m_lblShowLicense.Text" xml:space="preserve">
-    <value>Licence (GPL v2)</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.Name" xml:space="preserve">
-    <value>m_lblShowLicense</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowLicense.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_lblShowAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="m_lblShowAbout.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>301, 108</value>
-  </data>
-  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 16</value>
-  </data>
-  <data name="m_lblShowAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="m_lblShowAbout.Text" xml:space="preserve">
-    <value>About App Template</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.Name" xml:space="preserve">
-    <value>m_lblShowAbout</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_lblShowAbout.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 62</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>503, 37</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
-    <value>Desktop keyboard (osk.exe)</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Name" xml:space="preserve">
-    <value>m_btnShowDesktopKeyboard</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
-    <value>Template.Controls.ThemedButton, Template, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnShowDesktopKeyboard.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="m_chkTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 105</value>
-  </data>
-  <data name="m_chkTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 24</value>
-  </data>
-  <data name="m_chkTest.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="m_chkTest.Text" xml:space="preserve">
-    <value>A checkbox</value>
-  </data>
-  <data name="&gt;&gt;m_chkTest.Name" xml:space="preserve">
-    <value>m_chkTest</value>
-  </data>
-  <data name="&gt;&gt;m_chkTest.Type" xml:space="preserve">
-    <value>Template.Controls.ThemedCheckBox, Template, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_chkTest.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_chkTest.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="m_btnOsLanguageAndKeyboardSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 258</value>
-  </data>
-  <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 34</value>
-  </data>
-  <data name="m_btnOsLanguageAndKeyboardSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="m_btnOsLanguageAndKeyboardSettings.Text" xml:space="preserve">
-    <value>⚙</value>
-  </data>
-  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.Name" xml:space="preserve">
-    <value>m_btnOsLanguageAndKeyboardSettings</value>
-  </data>
-  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.Type" xml:space="preserve">
-    <value>Template.Controls.ThemedButton, Template, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -287,5 +143,149 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.Name" xml:space="preserve">
+    <value>m_btnOsLanguageAndKeyboardSettings</value>
+  </data>
+  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.Type" xml:space="preserve">
+    <value>Template.Controls.ThemedButton, Template, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_btnOsLanguageAndKeyboardSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Name" xml:space="preserve">
+    <value>m_btnShowDesktopKeyboard</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.Type" xml:space="preserve">
+    <value>Template.Controls.ThemedButton, Template, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowDesktopKeyboard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_chkTest.Name" xml:space="preserve">
+    <value>m_chkTest</value>
+  </data>
+  <data name="&gt;&gt;m_chkTest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_chkTest.Type" xml:space="preserve">
+    <value>Template.Controls.ThemedCheckBox, Template, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_chkTest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowAbout.Name" xml:space="preserve">
+    <value>m_lblShowAbout</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowAbout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.Name" xml:space="preserve">
+    <value>m_lblShowLicense</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblShowLicense.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 258</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 34</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="m_btnOsLanguageAndKeyboardSettings.Text" xml:space="preserve">
+    <value>⚙</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 62</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>503, 37</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_btnShowDesktopKeyboard.Text" xml:space="preserve">
+    <value>Desktop keyboard (osk.exe)</value>
+  </data>
+  <data name="m_chkTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 105</value>
+  </data>
+  <data name="m_chkTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 24</value>
+  </data>
+  <data name="m_chkTest.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="m_chkTest.Text" xml:space="preserve">
+    <value>A checkbox</value>
+  </data>
+  <data name="m_lblShowAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_lblShowAbout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblShowAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_lblShowAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 108</value>
+  </data>
+  <data name="m_lblShowAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="m_lblShowAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="m_lblShowAbout.Text" xml:space="preserve">
+    <value>About App Template</value>
+  </data>
+  <data name="m_lblShowLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblShowLicense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="m_lblShowLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 108</value>
+  </data>
+  <data name="m_lblShowLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="m_lblShowLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="m_lblShowLicense.Text" xml:space="preserve">
+    <value>Licence (GPL v2)</value>
   </data>
 </root>
