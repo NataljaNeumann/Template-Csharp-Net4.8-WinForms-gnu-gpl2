@@ -6,5 +6,6 @@
 Backup/**
 *.csv
 *.exe
+*.dll
 *.user
 *.suo
