@@ -121,9 +121,6 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>517, 296</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Σχετικά με τον εκπαιδευτή λεξιλογίου</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>493, 278</value>
   </data>

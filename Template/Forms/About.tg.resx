@@ -121,9 +121,6 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>580, 321</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Дар бораи барнома</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>556, 303</value>
   </data>
