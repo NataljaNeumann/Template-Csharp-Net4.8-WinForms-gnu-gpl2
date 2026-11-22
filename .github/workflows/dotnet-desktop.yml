@@ -1,6 +1,6 @@
 # This script builds your app at the github server.
 # You need to set up APP_NAME below, and store your secrets at github:
-# GH_TOKEN, if you also store PFX_FILE, PFX_PASSWORD, SNK_FILE,
+# GH_TOKEN, if you also store PFX_FILE, PFX_PASSWORD, SNK_FILE
 # and change the corresponding code below, then the script will also
 # sign your executables.
 #
@@ -468,7 +468,7 @@ jobs:
           release_name: "Version ${{ steps.increment.outputs.version }}"
           body: ${{ steps.generate_release_notes.outputs.release_body }}
           draft: false # Set to true to create a draft release
-          prerelease: false # Set to true for pre-release
+          prerelease: true # Set to true for pre-release, or false for release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
