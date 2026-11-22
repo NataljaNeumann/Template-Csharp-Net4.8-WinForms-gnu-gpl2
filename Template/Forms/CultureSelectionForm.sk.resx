@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Vyberte si jeden z dostupných jazykov používateľského rozhrania. Zvoľte si jazyk odlišný od toho, ktorý sa chcete učiť, pretože určitá časť logiky programu predpokladá, že jazyk rozhrania nie je totožný s jazykom, ktorý sa učíte.</value>
+    <value>Vyberte si, prosím, jeden z dostupných jazykov používateľského rozhrania zo zoznamu nižšie.</value>
   </data>
 </root>

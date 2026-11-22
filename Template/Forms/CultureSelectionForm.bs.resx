@@ -133,6 +133,6 @@
     <value>U redu</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Molimo odaberite jedan od dostupnih jezika korisničkog interfejsa. Odaberite jezik koji se razlikuje od jezika koji želite naučiti, jer određeni dijelovi programske logike pretpostavljaju da jezik korisničkog interfejsa nije onaj koji želite naučiti.</value>
+    <value>Molimo odaberite jedan od dostupnih jezika korisničkog interfejsa sa liste u nastavku.</value>
   </data>
 </root>

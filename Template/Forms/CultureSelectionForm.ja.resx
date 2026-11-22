@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>利用可能なGUI言語を1つ選択してください。学習しようとしている言語とは異なる言語を選択してください。プログラムのロジックによっては、GUI言語が学習対象の言語ではないことを前提としている場合があるためです。</value>
+    <value>以下のリストから、利用可能なGUI言語を1つ選択してください。</value>
   </data>
 </root>

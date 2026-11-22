@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Zəhmət olmasa, mövcud interfeys dillərindən birini seçin. Öyrənmək istədiyiniz dildən fərqli bir dil seçin, çünki proqramın bəzi məntiqi funksiyaları interfeys dilinin öyrənilən dil olmadığını nəzərdə tutur.</value>
+    <value>Zəhmət olmasa, aşağıdakı siyahıdan mövcud interfeys dillərindən birini seçin.</value>
   </data>
 </root>

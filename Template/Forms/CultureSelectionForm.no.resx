@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Velg ett av de tilgjengelige språkene for brukergrensesnittet. Velg et språk som er forskjellig fra språket du ønsker å lære, ettersom enkelte deler av programlogikken forutsetter at brukergrensesnittets språk ikke er det samme som språket du vil lære.</value>
+    <value>Velg ett av de tilgjengelige språkene for brukergrensesnittet fra listen nedenfor.</value>
   </data>
 </root>

@@ -128,6 +128,6 @@
     <value>Bone</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Bonvolu elekti unu el la disponeblaj lingvoj por la grafika uzantinterfaco. Elektu lingvon malsaman ol tiu, kiun vi volas lerni, ĉar iuj partoj de la program-logiko supozas, ke la interfaca lingvo ne estas tiu, kiun vi volas lerni.</value>
+    <value>Bonvolu elekti unu el la disponeblaj lingvoj por la grafika interfaco el la suba listo.</value>
   </data>
 </root>

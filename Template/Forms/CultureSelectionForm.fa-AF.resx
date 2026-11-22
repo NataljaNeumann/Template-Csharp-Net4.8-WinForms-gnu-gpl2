@@ -139,6 +139,6 @@
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>لطفاً یکی از زبان های موجود GUI را انتخاب کنید. یک زبان را انتخاب کنید که از زبانی که میخواهید یاد بگیرید متفاوت باشد، زیرا بعضی از منطق های برنامه فرض میکند که زبان GUI زبانی نیست که شما میخواهید یاد بگیرید.</value>
+    <value>لطفاً یکی از زبان های موجود GUI را از لیست زیر انتخاب کنید.</value>
   </data>
 </root>

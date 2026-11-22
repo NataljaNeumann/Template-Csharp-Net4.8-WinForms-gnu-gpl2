@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Vyberte prosím jeden z dostupných jazyků rozhraní. Zvolte jazyk odlišný od toho, který se chcete učit, protože určitá část logiky programu předpokládá, že jazyk rozhraní není totožný s jazykem, který si přejete osvojit.</value>
+    <value>Vyberte prosím jeden z dostupných jazyků grafického rozhraní ze seznamu níže.</value>
   </data>
 </root>

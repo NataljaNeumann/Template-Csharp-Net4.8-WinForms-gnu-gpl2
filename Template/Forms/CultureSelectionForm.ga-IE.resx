@@ -128,6 +128,6 @@
     <value>Ceart go leor</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Roghnaigh ceann de na teangacha GUI atá ar fáil. Roghnaigh teanga atá difriúil ón teanga ar mhaith leat a fhoghlaim, mar go mbíonn toimhde i gceist le loighic áirithe den chlár nach í an teanga GUI an teanga ar mhaith leat a fhoghlaim.</value>
+    <value>Roghnaigh ceann de na teangacha comhéadain atá ar fáil ón liosta thíos, le do thoil.</value>
   </data>
 </root>

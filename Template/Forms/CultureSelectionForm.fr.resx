@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Veuillez sélectionner l'une des langues d'interface disponibles. Choisissez une langue différente de celle que vous souhaitez apprendre, car certaines fonctions du programme supposent que la langue de l'interface n'est pas celle que vous voulez apprendre.</value>
+    <value>Veuillez sélectionner l’une des langues d’interface disponibles dans la liste ci-dessous.</value>
   </data>
 </root>

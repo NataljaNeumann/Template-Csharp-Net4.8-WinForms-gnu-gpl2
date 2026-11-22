@@ -133,6 +133,6 @@
     <value>እሺ</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>እባክዎ ከሚገኙት የGUI ቋንቋዎች አንዱን ይምረጡ። ለመማር ከሚፈልጉት ቋንቋ የተለየ ቋንቋ ይምረጡ፤ ምክንያቱም አንዳንድ የፕሮግራሙ አመክንዮዎች (logic) የGUI ቋንቋው እርስዎ ለመማር ከሚፈልጉት ቋንቋ የተለየ እንደሆነ ይገምታሉ።</value>
+    <value>እባክዎ ከዚህ በታች ካለው ዝርዝር ውስጥ፣ የሚገኙትን የግራፊክ የተጠቃሚ በይነገጽ (GUI) ቋንቋዎች አንዱን ይምረጡ።</value>
   </data>
 </root>

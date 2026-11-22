@@ -133,6 +133,6 @@
     <value>確定</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>請選擇一種可用的圖形使用者介面（GUI）語言。請選擇與您想要學習的語言不同的語言，因為程式的某些邏輯假定 GUI 語言並非您想要學習的語言。</value>
+    <value>請從下方清單中選擇一種可用的圖形介面語言。</value>
   </data>
 </root>

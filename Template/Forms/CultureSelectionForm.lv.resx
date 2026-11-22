@@ -133,6 +133,6 @@
     <value>Labi</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Lūdzu, izvēlieties vienu no pieejamajām saskarnes valodām. Izvēlieties valodu, kas atšķiras no tās, kuru vēlaties apgūt, jo daļa programmas loģikas paredz, ka saskarnes valoda nav tā, kuru vēlaties apgūt.</value>
+    <value>Lūdzu, izvēlieties vienu no pieejamajām saskarnes valodām zemāk redzamajā sarakstā.</value>
   </data>
 </root>

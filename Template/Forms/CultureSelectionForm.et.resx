@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Palun valige üks saadaolevatest kasutajaliidese keeltest. Valige keel, mis erineb keelest, mida soovite õppida, kuna programmi loogika eeldab, et kasutajaliidese keel ei ole see keel, mida õpitakse.</value>
+    <value>Palun valige allolevast loendist üks saadaolevatest kasutajaliidese keeltest.</value>
   </data>
 </root>

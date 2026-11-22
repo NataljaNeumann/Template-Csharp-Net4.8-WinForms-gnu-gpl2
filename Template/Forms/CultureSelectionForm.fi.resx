@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Valitse yksi käytettävissä olevista käyttöliittymän kielistä. Valitse kieli, joka on eri kuin kieli, jota haluat oppia, sillä ohjelman logiikka olettaa, ettei käyttöliittymän kieli ole sama kuin opeteltava kieli.</value>
+    <value>Valitse yksi käytettävissä olevista käyttöliittymäkielistä alla olevasta luettelosta.</value>
   </data>
 </root>

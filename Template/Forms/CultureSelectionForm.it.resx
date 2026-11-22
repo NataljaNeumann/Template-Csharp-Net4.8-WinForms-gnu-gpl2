@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Seleziona una delle lingue disponibili per l'interfaccia grafica. Scegli una lingua diversa da quella che desideri imparare, poiché parte della logica del programma presuppone che la lingua dell'interfaccia non sia quella che si intende apprendere.</value>
+    <value>Seleziona una delle lingue dell'interfaccia grafica disponibili dall'elenco sottostante.</value>
   </data>
 </root>

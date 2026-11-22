@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Kérjük, válasszon egyet az elérhető felületnyelvek közül. Olyan nyelvet válasszon, amely eltér a tanulni kívánt nyelvtől, mivel a program logikája bizonyos esetekben abból indul ki, hogy a felület nyelve nem azonos a tanulni kívánt nyelvvel.</value>
+    <value>Kérjük, válassza ki a felhasználói felület elérhető nyelvei közül az egyiket az alábbi listából.</value>
   </data>
 </root>

@@ -133,6 +133,6 @@
     <value>V redu</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Izberite enega od razpoložljivih jezikov uporabniškega vmesnika. Izberite jezik, ki se razlikuje od jezika, ki se ga želite naučiti, saj določeni deli programske logike predvidevajo, da jezik vmesnika ni jezik, ki se ga učite.</value>
+    <value>Prosimo, izberite enega od razpoložljivih jezikov uporabniškega vmesnika s spodnjega seznama.</value>
   </data>
 </root>

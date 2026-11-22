@@ -133,6 +133,6 @@
     <value>D'acord</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Seleccioneu un dels idiomes disponibles per a la interfície gràfica. Trieu un idioma diferent del que voleu aprendre, ja que part de la lògica del programa assumeix que l'idioma de la interfície no és el que voleu aprendre.</value>
+    <value>Si us plau, seleccioneu un dels idiomes de la interfície gràfica disponibles a la llista següent.</value>
   </data>
 </root>

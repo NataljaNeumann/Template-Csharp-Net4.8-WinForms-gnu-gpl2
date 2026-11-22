@@ -128,6 +128,6 @@
     <value>Bene</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Quaeso, unam ex linguis praesto pro interfacie graphica selige. Linguam elige quae differt ab ea quam discere vis; nam quaedam rationes programmatis ita constituuntur ut lingua interfaciei non sit ea quam discere cupis.</value>
+    <value>Quaeso, unam ex linguis interfaciei praesto, in indice infra posito, selige.</value>
   </data>
 </root>

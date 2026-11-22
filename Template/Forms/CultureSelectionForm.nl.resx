@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Selecteer een van de beschikbare GUI-talen. Kies een taal die verschilt van de taal die u wilt leren, aangezien bepaalde programmalogica ervan uitgaat dat de GUI-taal niet de taal is die u wilt leren.</value>
+    <value>Selecteer een van de beschikbare GUI-talen uit de onderstaande lijst.</value>
   </data>
 </root>

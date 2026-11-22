@@ -133,6 +133,6 @@
     <value>Gerai</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Pasirinkite vieną iš galimų grafinės sąsajos kalbų. Pasirinkite kalbą, kuri skiriasi nuo tos, kurią norite išmokti, nes tam tikra programos logika daro prielaidą, kad grafinės sąsajos kalba nėra ta, kurios mokomasi.</value>
+    <value>Prašome pasirinkti vieną iš galimų sąsajos kalbų žemiau pateiktame sąraše.</value>
   </data>
 </root>

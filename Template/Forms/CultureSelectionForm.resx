@@ -277,7 +277,7 @@
     <value>0</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Please select one of available GUI languages. Choose a language that is different from the language that you want to learn, because some program logic assumes that the GUI language is not the one that you want to learn.</value>
+    <value>Please select one of available GUI languages from the list below.</value>
   </data>
   <data name="m_labelSelectLanguage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>

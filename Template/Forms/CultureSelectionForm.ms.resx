@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Sila pilih salah satu bahasa GUI yang tersedia. Pilih bahasa yang berbeza daripada bahasa yang ingin anda pelajari, kerana sesetengah logik program mengandaikan bahawa bahasa GUI bukanlah bahasa yang ingin anda pelajari.</value>
+    <value>Sila pilih salah satu bahasa antara muka pengguna (GUI) yang tersedia daripada senarai di bawah.</value>
   </data>
 </root>

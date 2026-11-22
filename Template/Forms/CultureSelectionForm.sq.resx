@@ -125,6 +125,6 @@
     <value>Anulo</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Ju lutemi, zgjidhni një nga gjuhët e disponueshme për ndërfaqen grafike (GUI). Zgjidhni një gjuhë të ndryshme nga ajo që dëshironi të mësoni, pasi një pjesë e logjikës së programit supozon se gjuha e ndërfaqes nuk është ajo që po mësoni.</value>
+    <value>Ju lutemi, zgjidhni një nga gjuhët e disponueshme të ndërfaqes grafike nga lista e mëposhtme.</value>
   </data>
 </root>

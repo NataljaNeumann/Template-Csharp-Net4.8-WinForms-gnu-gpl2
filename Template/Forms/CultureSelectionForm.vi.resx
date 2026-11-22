@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Vui lòng chọn một trong các ngôn ngữ giao diện có sẵn. Hãy chọn ngôn ngữ khác với ngôn ngữ mà bạn muốn học, vì một số cơ chế hoạt động của chương trình mặc định rằng ngôn ngữ giao diện không phải là ngôn ngữ bạn đang muốn học.</value>
+    <value>Vui lòng chọn một trong các ngôn ngữ giao diện người dùng có sẵn từ danh sách dưới đây.</value>
   </data>
 </root>

@@ -125,6 +125,6 @@
     <value>Kanselahin</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Mangyaring pumili ng isa sa mga available na wika para sa GUI. Pumili ng wikang iba sa wikang nais mong matutuhan, dahil ipinapalagay ng ilang bahagi ng logic ng programa na ang wika ng GUI ay hindi ang wikang nais mong matutuhan.</value>
+    <value>Mangyaring pumili ng isa sa mga wikang magagamit para sa GUI mula sa listahan sa ibaba.</value>
   </data>
 </root>

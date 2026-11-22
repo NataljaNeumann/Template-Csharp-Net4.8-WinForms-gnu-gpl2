@@ -133,6 +133,6 @@
     <value>OK</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Bitte wählen Sie eine der verfügbaren Sprachen für die Benutzeroberfläche aus. Wählen Sie eine Sprache, die sich von der Sprache unterscheidet, die Sie lernen möchten, da bestimmte Programmfunktionen davon ausgehen, dass die Sprache der Benutzeroberfläche nicht der zu erlernenden Sprache entspricht.</value>
+    <value>Bitte wählen Sie eine der verfügbaren Benutzeroberflächensprachen aus der untenstehenden Liste aus.</value>
   </data>
 </root>

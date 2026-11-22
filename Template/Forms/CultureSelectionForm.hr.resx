@@ -128,6 +128,6 @@
     <value>U redu</value>
   </data>
   <data name="m_labelSelectLanguage.Text" xml:space="preserve">
-    <value>Odaberite jedan od dostupnih jezika sučelja. Odaberite jezik koji se razlikuje od jezika koji želite učiti jer određeni dijelovi programske logike pretpostavljaju da jezik sučelja nije onaj koji želite učiti.</value>
+    <value>Molimo odaberite jedan od dostupnih jezika korisničkog sučelja s popisa u nastavku.</value>
   </data>
 </root>

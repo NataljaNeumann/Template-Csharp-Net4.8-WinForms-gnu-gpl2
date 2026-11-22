@@ -133,6 +133,6 @@
     <value>Tamam</value>
   </data>
   <data xml:space="preserve" name="m_labelSelectLanguage.Text">
-    <value>Lütfen mevcut arayüz dillerinden birini seçin. Öğrenmek istediğiniz dilden farklı bir dil seçin; çünkü programın bazı mantıksal işleyişleri, arayüz dilinin öğrenilmek istenen dil olmadığını varsayar.</value>
+    <value>Lütfen aşağıdaki listeden, mevcut arayüz dillerinden birini seçin.</value>
   </data>
 </root>
