@@ -1233,6 +1233,7 @@
     <None Include="epp\2026\rtl-flip-page.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Content Include="GUI-Test-Documentation.html" />
     <Content Include="Readme-Developer.txt" />
     <None Include="Readme.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

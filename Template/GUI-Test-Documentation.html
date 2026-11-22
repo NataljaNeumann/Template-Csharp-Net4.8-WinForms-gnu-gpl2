@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>How to test GUI.</title>
+   	<script type="text/javascript" src="epp/2026/rtl-flip-page.js" ></script>
+
+    <!-- standard stylesheet -->
+    <link rel="stylesheet" href="epp/2026/epp.css" />
+</head>
+<body>
+    <div class="main">
+        <h1>Test Documentation</h1>
+        <p>This document describes the expected behavior of the application, as is testable using the GUI.</p>
+		<h2>OS Theme Test</h2>
+		<ul>
+			<li>Setup a dark theme in the operating system.</li>
+			<li>Start the application</li>
+			<li>Close the application</li>
+			<li>Setup a light theme in the operating system.</li>
+			<li>Start the application</li>
+			<li>Close the application</li>
+		</ul>
+		<p>Expected results:</p>
+		<ul>
+			<li>The application starts and closes</li>
+			<li>The application has light colors, when OS has light colors on startup</li>
+			<li>The application has dark colors, when OS has light colors on startup</li>
+			<li>Changing the color schema on-the-fly is not mandatory</li>
+		</ul>
+	</div>
+</body>
+</html>
