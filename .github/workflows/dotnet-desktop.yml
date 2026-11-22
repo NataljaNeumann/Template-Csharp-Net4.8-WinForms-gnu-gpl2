@@ -1,5 +1,5 @@
-# This script builds your app at the github server.
-# You need to set up APP_NAME below, and store your secrets at github:
+# This script builds your app at the GitHub server.
+# You need to set up APP_NAME below, and store your secrets at GitHub:
 # GH_TOKEN, if you also store PFX_FILE, PFX_PASSWORD, SNK_FILE
 # and change the corresponding code below, then the script will also
 # sign your executables.
@@ -119,13 +119,6 @@ jobs:
               $text = $text -replace '<Version>\s*\d+\.\d+\.\d+\.\d+\s*</Version>', "<Version>$newVersion</Version>"
               $changed = $true
               Write-Host "Modifying Version in $path"
-            } else {
-              # Insert <Version> into the first PropertyGroup if none exists
-              if ($text -match '(?s)(<PropertyGroup[^>]*>)') {
-                $text = $text -replace '(?s)(<PropertyGroup[^>]*>)', "`$1`n    <Version>$newVersion</Version>"
-                $changed = $true
-                Write-Host "Adding Version in $path"
-              }
             }
             
             # Replace AssemblyVersion and FileVersion tags if present
@@ -429,23 +422,30 @@ jobs:
       # If the release exists, it sets the output 'release_exists' to true, otherwise false.
       # Useful parameters: GITHUB_TOKEN (must have repo access)
       # Threats: API rate limits, leaking sensitive info if token is misconfigured.
+      # For the Template repository no released binary files are expected
       - name: Check if release exists
         id: check_release
         shell: pwsh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          $tag = "${{ env.APP_NAME }}_v${{ steps.increment.outputs.version }}"
-          $headers = @{ Authorization = "token $env:GITHUB_TOKEN"; "Accept" = "application/vnd.github.v3+json" }
-          $repo = "${{ github.repository }}"
-          $url = "https://api.github.com/repos/$repo/releases/tags/$tag"
-          try {
-            $response = Invoke-RestMethod -Uri $url -Headers $headers -Method Get -ErrorAction Stop
-            Write-Host "Release for tag $tag exists."
+          if ("${{ env.APP_NAME }}" -eq "Template")
+          {
             echo "release_exists=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-          } catch {
-            Write-Host "Release for tag $tag does not exist."
-            echo "release_exists=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          } else
+          {
+            $tag = "${{ env.APP_NAME }}_v${{ steps.increment.outputs.version }}"
+            $headers = @{ Authorization = "token $env:GITHUB_TOKEN"; "Accept" = "application/vnd.github.v3+json" }
+            $repo = "${{ github.repository }}"
+            $url = "https://api.github.com/repos/$repo/releases/tags/$tag"
+            try {
+              $response = Invoke-RestMethod -Uri $url -Headers $headers -Method Get -ErrorAction Stop
+              Write-Host "Release for tag $tag exists."
+              echo "release_exists=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+            } catch {
+              Write-Host "Release for tag $tag does not exist."
+              echo "release_exists=false" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+            }
           }
 
       # Step: Create GitHub Release only if it does not already exist
@@ -460,9 +460,9 @@ jobs:
       #   - target_commitish: Commit SHA or branch to create the release from
       # Threats: If secrets are misconfigured, release may expose sensitive info. If a release already exists, this step will fail unless conditionally skipped as below.
       - name: Create GitHub Release
+        if: steps.check_release.outputs.release_exists == 'false'
         id: create_release
         uses: actions/create-release@v1
-        if: steps.check_release.outputs.release_exists == 'false'
         with:
           tag_name: ${{ env.APP_NAME }}_v${{ steps.increment.outputs.version }}
           release_name: "Version ${{ steps.increment.outputs.version }}"
@@ -472,10 +472,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-
         # Threat: This action publishes a release. If secrets are misconfigured, it may expose sensitive info.
         # Useful parameters: 'body_path' to load release notes from a file, 'target_commitish' to specify commit.
       - name: Upload release asset(s) (all bin/*v<version>.zip)
+        if: steps.check_release.outputs.release_exists == 'false'
         shell: pwsh
         env:
           UPLOAD_URL: ${{ steps.create_release.outputs.upload_url }}
