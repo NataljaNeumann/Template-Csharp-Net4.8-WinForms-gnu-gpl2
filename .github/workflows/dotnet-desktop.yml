@@ -165,7 +165,7 @@ jobs:
         uses: NuGet/setup-nuget@d105a947828025cd7a980103c35ba2bfae586d0f # v2
 
       - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v2
+        uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2
       #  with:
       #    vs-version: '17.8'
 
