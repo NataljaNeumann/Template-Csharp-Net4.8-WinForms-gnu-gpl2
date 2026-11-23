@@ -161,7 +161,7 @@ jobs:
           Add-Content -Path $env:GITHUB_OUTPUT -Value "version=$newVersion"
 
       - name: Setup NuGet
-        uses: NuGet/setup-nuget@v2
+        uses: NuGet/setup-nuget@d105a947828025cd7a980103c35ba2bfae586d0f # v2
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
