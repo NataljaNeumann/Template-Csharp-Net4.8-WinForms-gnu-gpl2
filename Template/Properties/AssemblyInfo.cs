@@ -50,6 +50,6 @@ using System.Resources;
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.15.0")]
-[assembly: AssemblyFileVersion("0.0.15.0")]
+[assembly: AssemblyVersion("0.0.16.0")]
+[assembly: AssemblyFileVersion("0.0.16.0")]
 [assembly: NeutralResourcesLanguageAttribute("")]
