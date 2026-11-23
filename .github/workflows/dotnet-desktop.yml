@@ -399,7 +399,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          if ("${{ secrets.GH_TOKEN }}" -eq "")
+          if ("${{ secrets.GH_TOKEN }}" -ne "")
           {
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
