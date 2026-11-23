@@ -249,7 +249,7 @@ jobs:
       # Useful parameters: message (commit message), add (files to add), github_token (auth token)
       # Threat: If no files are found, this step will be skipped and no commit will be made.
       - name: Commit version change
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9
         if: steps.find_files_to_commit.outputs.files_to_commit != ''
         with:
           message: "Set version to ${{ steps.increment.outputs.version }}"
