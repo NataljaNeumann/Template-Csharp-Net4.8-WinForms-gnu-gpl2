@@ -395,30 +395,28 @@ jobs:
 
       # Creates a tag for the next release
       - name: Create and push tag
+        if: secrets.GH_TOKEN != ''
         shell: pwsh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          if ("${{ secrets.GH_TOKEN }}" -ne "")
-          {
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            # ensure history & tags are present
-            # Only run --unshallow if the repo is actually shallow to avoid the harmless fatal
-            if (Test-Path -Path ".git\shallow") {
-              git fetch --unshallow --tags || git fetch --tags
-            } else {
-              git fetch --tags
-            }
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ensure history & tags are present
+          # Only run --unshallow if the repo is actually shallow to avoid the harmless fatal
+          if (Test-Path -Path ".git\shallow") {
+            git fetch --unshallow --tags || git fetch --tags
+          } else {
+            git fetch --tags
+          }
 
-            $tag = "$($env:APP_NAME)_v${{ steps.increment.outputs.version }}"
-            if (git rev-parse --verify $tag 2>$null) {
-               Write-Host "Tag $tag already exists; skipping"
-            } else {
-               git tag -a $tag -m "Release $tag"
-               git push origin refs/tags/$tag
-               Write-Host "Created and pushed tag $tag"
-            }
+          $tag = "$($env:APP_NAME)_v${{ steps.increment.outputs.version }}"
+          if (git rev-parse --verify $tag 2>$null) {
+             Write-Host "Tag $tag already exists; skipping"
+          } else {
+             git tag -a $tag -m "Release $tag"
+             git push origin refs/tags/$tag
+             Write-Host "Created and pushed tag $tag"
           }
 
       # Step: Check if a release with the tag already exists using GitHub REST API
