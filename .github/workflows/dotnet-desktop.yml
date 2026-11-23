@@ -395,7 +395,6 @@ jobs:
 
       # Creates a tag for the next release
       - name: Create and push tag
-        if: secrets.GH_TOKEN != ''
         shell: pwsh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
