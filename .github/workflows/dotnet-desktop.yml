@@ -382,14 +382,14 @@ jobs:
         if: env.IS_MAIN_PUSH == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.APP_NAME }}-v${{ steps.increment.outputs.version }}.zip
+          name: ${{ env.APP_NAME }}-v${{ steps.increment.outputs.version }}
           path: ${{ env.APP_NAME }}/bin/*v${{ steps.increment.outputs.version }}.zip
 
       - name: Upload built msi archive(s) as workflow artifact(s)
         if: env.IS_MAIN_PUSH == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.APP_NAME }}-v${{ steps.increment.outputs.version }}.msi
+          name: ${{ env.APP_NAME }}-v${{ steps.increment.outputs.version }}-msi
           path: ${{ env.APP_NAME }}.Setup/bin/x86/Release/*v${{ steps.increment.outputs.version }}.msi
 
       # Uploafs built artifacts
