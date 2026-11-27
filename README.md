@@ -11,4 +11,4 @@ This is a template for a multilingual .Net Windows apps based on WinForms, GNU g
  - Some useful tools that are used in project can be found in repositories of https://github.com/NataljaNeumann
  - In .github/workflows directory there is a workflow for automatic building your project and releasing a new version
  - There are more supported languages than supported by the operating system, so a culture selection dialog on the first start is useful.
- - Since this is a template for applications, not an application itself, you don't need to mark your changes to the template, if you develop an application, any further change of an appication may require tracking the changes. The obligation to publish the code and other obligations resulting out of the licence still remain.
+ - Since this is a template for applications, not an application itself, you don't need to mark your difference to the template, if you develop an application. Any further change of an appication or development of another template may require tracking the changes. The obligation to publish the code and other obligations resulting out of the licence still remain.
