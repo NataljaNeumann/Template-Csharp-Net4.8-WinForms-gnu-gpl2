@@ -1193,6 +1193,9 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="license.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -1221,10 +1224,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="licence.html">
+    <None Include="license.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="licence.txt">
+    <None Include="license.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="epp\2026\epp.css">
@@ -1303,13 +1306,3 @@
     <Exec Command="rmdir /S /Q &quot;$(TargetDir)&quot;" ContinueOnError="true" />
   </Target>
 </Project>
-
-
-
-
-
-
-
-
-
-

@@ -75,7 +75,7 @@ namespace Template.Forms
             LinkLabelLinkClickedEventArgs oArgs
             )
         {
-            System.Diagnostics.Process.Start(System.IO.Path.Combine(Application.StartupPath, "Licence.html"));
+            System.Diagnostics.Process.Start(System.IO.Path.Combine(Application.StartupPath, "License.html"));
         }
 
         //===================================================================================================
