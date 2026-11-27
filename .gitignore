@@ -1,11 +1,12 @@
-*/obj/**
-*/bin/Release/**
-*/bin/Debug/**
-*/bin/*.zip
+**/obj/**
+**/Release/**
+**/Debug/**
+**/bin/*.zip
 **/.vs/**
 Backup/**
 *.csv
 *.exe
+*.msi
 *.dll
 *.user
 *.suo
